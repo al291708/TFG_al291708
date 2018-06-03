@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="d4875609-69cf-4f84-bfcb-bd49eb3ee93c"
+  name="DesktopStandalonePostProcessor‎"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="92bfdea7-c292-49b0-9b68-f8e5282181db"
+      handle="viewcode://./CodeSchema_Namespace?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FUnity2017.3.1f1%2FEditor%2FData%2FManaged%2FUnityEditor.dll&quot; Namespace%3DDesktopStandalonePostProcessor Type%3D(Name%3DScriptingImplementations ParentType%3DDesktopStandalonePostProcessor)"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="b052219a-16cb-43ec-a8ae-a612f20c5d75"
+        name="ScriptingImplementations"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="cc9b598e-0ad9-4981-8b1d-dee9f81b9147"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FUnity2017.3.1f1%2FEditor%2FData%2FManaged%2FUnityEditor.dll&quot; Type%3D(Name%3DScriptingImplementations ParentType%3DDesktopStandalonePostProcessor)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="8408b501-fb14-4868-86da-475b4ef4f8da"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3f9e6461-2db7-4c5d-ab34-2ed03134e7fd">
+                <propertyInstance
+                  Id="fa668090-26fb-48fe-8a2b-4edcd5fa995e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="85275989-e9c7-431a-a246-c47e402b9d43">
+                <propertyInstance
+                  Id="c83f9db3-bc8e-4d89-95b6-8e1c59dde696"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5e4687ec-53d2-448e-92fd-f0f588b4b7f1">
+                <propertyInstance
+                  Id="0809d803-421b-43cd-9a2a-2dfa1d25eb56"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d0f6b70f-a6d4-43d7-98f0-6c9ae10aeb6b">
+                <propertyInstance
+                  Id="7b0b6844-eacb-499d-9a37-65da97d8add7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ff80846d-612f-4058-bee5-e41a08b80501">
+                <propertyInstance
+                  Id="59884f45-3bf9-4cba-97b5-8e0953361361"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="3d96cf35-401d-4ce1-9bfd-58321c022b07"
+            name="Enabled"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="36c6fbcd-c8ef-43da-b075-3d86dc556f7a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FUnity2017.3.1f1%2FEditor%2FData%2FManaged%2FUnityEditor.dll&quot; Type%3D(Name%3DScriptingImplementations ParentType%3DDesktopStandalonePostProcessor) Member%3DEnabled"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="aab9794d-8f86-4122-a5d0-e9cca7ddbe09"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="efdb7a74-d315-4038-a614-d7981c53ac54">
+                    <propertyInstance
+                      Id="6f9a1e29-f391-47bc-b548-5c1dc1698907"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4530ab9a-3cb3-4f4d-be92-697d0a9b01b9">
+                    <propertyInstance
+                      Id="ec850927-7ec4-4f97-b009-e8bee6b00ce4"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b1c184d3-6033-4871-8bc4-ff1cee09a9e1">
+                    <propertyInstance
+                      Id="a611d939-db88-4558-b174-d191d8b6edfb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="403072bb-ca81-4fab-b6ad-9941ce83aa3b">
+                    <propertyInstance
+                      Id="de81a0c1-3a11-4efb-a547-6fcf81015836"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad175e43-a3e6-4cdd-b9ac-6ade3c579577">
+                    <propertyInstance
+                      Id="429991bf-1258-40ba-8935-81794b5f088b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c4a955bd-7d6d-40ed-b8a9-9c6c37dadb21">
+                    <propertyInstance
+                      Id="dbeeb950-85ac-4caf-9c39-93dc7a0be851"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ffcffb89-80df-45a4-bba5-e2ddae13e088"
+                  direction="Return"
+                  isOrdered="true">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="d18db566-d9e6-466c-9a19-72c939e88a24"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="c61bff9d-9f81-4476-8a58-99228094ab65"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9556bb89-a5c7-4975-b014-932ce497ea03"
+                      LastKnownName="ScriptingImplementation"
+                      LastKnownLocation="Package20_1519.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5e723be9-11dd-48a6-8329-9f58e4202d39"
+            name="ScriptingImplementations"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e5e48a50-d8d5-4e49-a403-9ca31dd86827"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FUnity2017.3.1f1%2FEditor%2FData%2FManaged%2FUnityEditor.dll&quot; Type%3D(Name%3DScriptingImplementations ParentType%3DDesktopStandalonePostProcessor) Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="abcaae43-a935-4bd6-8925-d1325a4676c1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b19f8d33-25fb-4b7e-8760-e759ead24a45">
+                    <propertyInstance
+                      Id="6b0d0657-cdd4-4d5e-835d-80263b6eb29e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc8b3fc2-a5d5-4ba5-a0d5-ac1a5c6660ac">
+                    <propertyInstance
+                      Id="842ea9bf-0458-4376-b4df-9a3b85b407a8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa5ea1d3-f7fb-47d0-8c20-1d39814faed5">
+                    <propertyInstance
+                      Id="40f9ed3c-94af-4e1d-9480-42f8a0b8e387"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95bb5756-5580-433a-8840-5ec8bbf2317d">
+                    <propertyInstance
+                      Id="6b608649-32c1-4ee3-9573-185053c26fd8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97560672-1757-4b95-9616-34bc26386365">
+                    <propertyInstance
+                      Id="fbb6b91e-cb83-4aaf-920b-082615292b3f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e3182fd5-564b-4ae2-a475-4e93769bd855">
+                    <propertyInstance
+                      Id="469db0ea-62f4-4fb4-accf-ba81805cf01e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="250e4f6e-0532-4634-9285-889215690c61"
+            name="Supported"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="35c83e9f-421b-4ace-9576-f5bf10d842c2"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FUnity2017.3.1f1%2FEditor%2FData%2FManaged%2FUnityEditor.dll&quot; Type%3D(Name%3DScriptingImplementations ParentType%3DDesktopStandalonePostProcessor) Member%3DSupported"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a7fb7810-689a-4e58-9a34-8f12c5041ba2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8ccc840-9a6d-4096-9e07-0296ca64e4e5">
+                    <propertyInstance
+                      Id="5e4b4f88-20ae-4c18-bcf8-73daed0b74fd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22f12bbc-235a-48b4-807a-397d0ab20fd4">
+                    <propertyInstance
+                      Id="05895ff2-bea8-41d2-bf72-ff7ad1a849fc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="155bd6d2-07e2-4878-8606-093ff5fe070f">
+                    <propertyInstance
+                      Id="84989db8-8cd4-4805-8cb6-7a8e90764bc5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fbd57a5a-ed18-456e-9b5e-1aad0189e55e">
+                    <propertyInstance
+                      Id="f7831199-8b59-4ed0-bd6b-a4fcdb77bae0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9b5d263-74f6-468a-9f5d-8d124a2c4f0d">
+                    <propertyInstance
+                      Id="83b8c329-6a0e-455d-8d0c-6c1477b67f0d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a6e55ff-a6ff-4045-adb7-1f76e7decb2c">
+                    <propertyInstance
+                      Id="bed3885e-2b47-4698-a0bd-068ce568daf2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1a60533d-0f6d-40d7-bf32-5de178937c91"
+                  direction="Return"
+                  isOrdered="true">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="2fff2cb7-8765-404c-b7e8-b12637bce7d6"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="978b4492-29b4-47e9-ba07-4ff506ba0110"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9556bb89-a5c7-4975-b014-932ce497ea03"
+                      LastKnownName="ScriptingImplementation"
+                      LastKnownLocation="Package20_1519.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

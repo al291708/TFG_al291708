@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - agent
+  - iWall
+  - banana
+  - wall
+  - badBanana
+  - pit
+  - frozenAgent
+  - ball
+  - redGoal
+  - blueGoal
+  - blueAgent
+  - redAgent
+  - redBlock
+  - goal
+  - ground
+  - orangeBlock
+  - block
+  - orangeGoal
+  - ControlWindow
+  - PlayerSelectionWindow
+  - PlayerSelection
+  - IntroWindow
+  - Path
+  - Heaven
+  - Gap
+  - ITTLA
+  - NERTA
+  - IttlaWinner
+  - NertaWinner
+  - EASY
+  - MEDIUM
+  - HARD
+  - OBSERVACIONES
+  - RESETS
+  - TRAINING_INFO
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ittla
+  - Nerta
+  - Environment
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

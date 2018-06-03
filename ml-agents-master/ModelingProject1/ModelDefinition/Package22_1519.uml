@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="248b609a-5c93-42e6-b13e-96a56511e98b"
+  name="CurveWrapper‎"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="b0b9c6b4-8737-40de-977e-60a55c9700b1"
+      handle="viewcode://./CodeSchema_Namespace?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FadRii%2FDesktop%2Fml-agents-master%2Funity-environment%2FTemp%2Fbin%2FDebug%2FAssembly-CSharp.dll Namespace%3DUnityEditor.CurveWrapper Type%3DUnityEditor.CurveWrapper.SetAxisScalarsCallback"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="c46b438c-259b-4792-8f33-492209756f25"
+        name="UnityEditor.CurveWrapper.GetAxisScalarsCallback"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="d70126f9-4ae3-4093-9bda-1dcde15ba1e5"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FadRii%2FDesktop%2Fml-agents-master%2Funity-environment%2FTemp%2Fbin%2FDebug%2FAssembly-CSharp.dll Type%3DUnityEditor.CurveWrapper.GetAxisScalarsCallback"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ea273156-b475-4790-84dc-c056710674e7"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b3d3bbe0-39fe-403f-9cc8-bc37314867b2">
+                <propertyInstance
+                  Id="41d8e61b-75f4-4492-85fd-857a585533f0"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="68db6c46-7bdc-4dea-bb80-24d855816db2">
+                <propertyInstance
+                  Id="118bd017-d1b0-4c81-bbe2-9c2310e2617a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1801d38c-a87e-4c86-82d0-7ac8eb67e7f4">
+                <propertyInstance
+                  Id="7ff7d84a-0aef-4798-ae1e-6d134145c10c"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d245440f-c6b3-45b8-bbb0-65a356dbd3e4">
+                <propertyInstance
+                  Id="105ee880-c7c4-42f5-ad5a-9e3e111d58f5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d2803aea-833e-4d08-810d-d70c36fd65fe">
+                <propertyInstance
+                  Id="55feaae1-1d19-4121-9d96-021ea80fae7b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="9bacfeb4-a496-4c38-9210-82036ba83e1b"
+        name="UnityEditor.CurveWrapper.SetAxisScalarsCallback"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6ecc7168-60e1-4ff7-b5f0-c59de6cbc7a9"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FadRii%2FDesktop%2Fml-agents-master%2Funity-environment%2FTemp%2Fbin%2FDebug%2FAssembly-CSharp.dll Type%3DUnityEditor.CurveWrapper.SetAxisScalarsCallback"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="5a421d67-8177-45f6-bf93-e993ce3f537b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6c16da75-d759-4cfb-ac9b-ba5589ded505">
+                <propertyInstance
+                  Id="9835e99c-aeb3-48d0-8ec1-f8504daf3fb3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="421cfccc-3d0a-4c55-a16d-bef83cd6ed9d">
+                <propertyInstance
+                  Id="71399c19-14ce-4211-a3f4-884f9cdec02b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0ea5233c-a807-4424-aaf5-fa9d8c66d2c9">
+                <propertyInstance
+                  Id="947ce108-8b8d-4b2d-bde8-5f3a56bb92a0"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="13634677-1e58-4488-95f6-11c92ca334b6">
+                <propertyInstance
+                  Id="769b2b53-5a88-4d3c-8edc-5d7c083729fd"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="155f03d1-a4d3-46ef-848e-b449c7d1e1e6">
+                <propertyInstance
+                  Id="37c3d567-64d1-4289-bc62-c81dc347f8b3"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="e9737ffd-bca1-4529-9022-ce1b284b2b16"
+  name="ResetParameters‎"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="cd71bf52-0e2c-43bc-b6d8-145f81df2d88"
+      handle="viewcode://./CodeSchema_Namespace?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FadRii%2FDesktop%2Fml-agents-master%2Funity-environment%2FTemp%2Fbin%2FDebug%2FAssembly-CSharp.dll Namespace%3DResetParameters Type%3D(Name%3DResetParameter ParentType%3DResetParameters)"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="165e5a49-d59b-46d5-a7f6-bc93835ffe74"
+        name="ResetParameter"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a4cdf47f-24fa-40ae-972b-cb9a17f582d4"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FadRii%2FDesktop%2Fml-agents-master%2Funity-environment%2FTemp%2Fbin%2FDebug%2FAssembly-CSharp.dll Type%3D(Name%3DResetParameter ParentType%3DResetParameters)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7905e9fb-6bf4-4d54-98c1-f8b331332cd6"
+            name="struct"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="24bede02-d4f6-43d1-b0f4-c6e3f519538b">
+                <propertyInstance
+                  Id="c9e4e666-09bb-4e5f-85b3-d89b564e534d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8a339471-2ddd-4c26-a1cd-dca51c80e011">
+                <propertyInstance
+                  Id="8d126b1d-8e7b-4ae7-8130-9c555c3c5372"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8b69e068-4f70-4abe-bb8b-f9bf2cac7a63">
+                <propertyInstance
+                  Id="cd838b5a-5340-432d-a230-0c8ff737073e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a62f0759-52f5-4f2f-a005-9c173607664f">
+                <propertyInstance
+                  Id="45729b9b-5e30-4018-8351-5a207bcac178"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="c4b1146f-530d-4572-a479-f694a136e995"
+            name="key"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="9f130921-025d-40d1-948b-3d4822bfb4e7"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FadRii%2FDesktop%2Fml-agents-master%2Funity-environment%2FTemp%2Fbin%2FDebug%2FAssembly-CSharp.dll Type%3D(Name%3DResetParameter ParentType%3DResetParameters) Member%3Dkey"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f02536c8-96c7-4bac-927a-cd3b8a638f0c"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27ab2aaf-c141-4698-ac57-0b38ac07bf4c">
+                    <propertyInstance
+                      Id="ec1a79d5-0a3f-4d7c-abc8-fa3c2e2b6676"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5ac5338-e17e-4877-94b8-d5571dc2d34b">
+                    <propertyInstance
+                      Id="8eb994f9-ba48-4ee7-8ca3-808d2eed5c8c"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4290f79f-17f4-4bb1-aca7-95eb82f38c93">
+                    <propertyInstance
+                      Id="0df4dabb-6c5d-47a0-bdf5-4a4fe795774c"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f220675c-e961-499a-a503-16103fa4b048">
+                    <propertyInstance
+                      Id="5759678c-8b67-441a-84f1-5296bda2e1ee"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fecacfbf-288c-436f-b8ef-46edaae13545">
+                    <propertyInstance
+                      Id="13ce3e66-2bd2-43f3-a53a-d13717679935"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e4db0221-253a-4748-84f0-072d62cc575c"
+            name="value"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="de826c46-95dd-4686-a7c4-8ab0e93b5b5a"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FadRii%2FDesktop%2Fml-agents-master%2Funity-environment%2FTemp%2Fbin%2FDebug%2FAssembly-CSharp.dll Type%3D(Name%3DResetParameter ParentType%3DResetParameters) Member%3Dvalue"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5cf108d2-3344-4486-9221-2a1ae93081cb"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e3a61b32-ab96-4a89-b5fb-cbdd75d05efa">
+                    <propertyInstance
+                      Id="64e543d4-5ae9-402d-8757-4c4157c1e982"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7e5be42c-063d-4e6e-994d-e7a5d75f3cd3">
+                    <propertyInstance
+                      Id="fcc59519-bfa7-4d6c-90ad-4bd25ed2b4df"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d22e30dd-f48c-44dc-95a6-4e4a2158d459">
+                    <propertyInstance
+                      Id="5affbe99-0350-4835-9b16-1d939288f6fa"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a708118-219f-4e4a-bc6d-27f7a3445f5d">
+                    <propertyInstance
+                      Id="2ddfc5f1-c266-482f-ab6f-12e816358350"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3a0f636-d9a4-4bc9-bc3c-b6f100f5995f">
+                    <propertyInstance
+                      Id="ee71aa17-5a92-4788-988b-6f2dac6190cb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="1c6c7674-e049-4e28-9d27-0f54bbaa2d5b"
+                LastKnownName="Single"
+                LastKnownLocation="Package1_1519.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="7e7e27f3-4f19-40d0-9da9-f91bad4aac06"
+            name="ResetParameter"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="640af80c-2126-4e3f-aa45-0b613c311663"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FadRii%2FDesktop%2Fml-agents-master%2Funity-environment%2FTemp%2Fbin%2FDebug%2FAssembly-CSharp.dll Type%3D(Name%3DResetParameter ParentType%3DResetParameters) Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b6ea5c33-9e8c-4ec9-a004-3d66ba8aebd0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="def48423-0bf2-4e8a-8325-5e4a062910cf">
+                    <propertyInstance
+                      Id="e5abfa3c-97f1-40c2-9815-315f980a9a92"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="148418e9-d826-4d87-8777-444a0d5860bf">
+                    <propertyInstance
+                      Id="92af83c0-b216-4565-b6da-081ed4c129bb"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c51f5386-821a-46f8-ab53-6d69fbc25965">
+                    <propertyInstance
+                      Id="7f12b44a-5219-4f77-a885-4dc2e2f3e703"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a54a759-ca08-4b5b-a0a2-5a300d82d64d">
+                    <propertyInstance
+                      Id="b2738d51-877c-40b8-b6c1-b6d22b953b9e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b57cb2f-f063-47b4-9ea7-f040a8fe9184">
+                    <propertyInstance
+                      Id="7f63b8ae-f9ca-4804-ae41-7cbd1d19bab7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e0f69db-6446-47f9-ac26-753435c67ab7">
+                    <propertyInstance
+                      Id="cae56a86-4337-4676-9dc7-52ef2e13e509"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

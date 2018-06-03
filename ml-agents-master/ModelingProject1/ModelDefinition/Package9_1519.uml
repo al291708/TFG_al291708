@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="6a494b24-21de-4078-9d4a-5892d0bf3c5f"
+  name="ExampleWheelController‎"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="de24b552-5d40-40f5-b110-fd10cb56636a"
+      handle="viewcode://./CodeSchema_Namespace?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FadRii%2FDesktop%2Fml-agents-master%2Funity-environment%2FTemp%2Fbin%2FDebug%2FAssembly-CSharp.dll Namespace%3DExampleWheelController Type%3D(Name%3DUniforms ParentType%3DExampleWheelController)"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="b7689b2c-2821-4610-b2a8-cee3ad9ba9dc"
+        name="Uniforms"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="2bc01917-535b-4fef-92c5-34374dfadd29"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FadRii%2FDesktop%2Fml-agents-master%2Funity-environment%2FTemp%2Fbin%2FDebug%2FAssembly-CSharp.dll Type%3D(Name%3DUniforms ParentType%3DExampleWheelController)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0ebb1687-22b3-43fe-8731-372271c72fd7"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d61f2585-df8f-49df-b82f-f94d6f3c6f00">
+                <propertyInstance
+                  Id="bf2a5aa6-03fb-4a17-aeb8-c026e4677aa3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="15981bbf-63ac-4510-b450-4a538c596d21">
+                <propertyInstance
+                  Id="46d80f9e-0fa7-4a17-9453-1c953f94e982"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d85d4bc5-6745-4c16-9a36-4cabf5f2b874">
+                <propertyInstance
+                  Id="f69b2934-e01e-4a70-b50b-c20d59b53996"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8da85e6d-5fb1-42f9-aad6-fd2c0a1bc65a">
+                <propertyInstance
+                  Id="64accb5d-335e-427d-8596-e0530f85fa8c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="417f8791-7094-42ed-a75c-d504efa6e626">
+                <propertyInstance
+                  Id="dee8c2b4-092d-4efe-8004-dfeefa4eea19"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="a226a1b2-d1b0-439f-b045-59c231f2ee5b"
+            name="_MotionAmount"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="4ddfa0b2-9c84-4eac-bed9-4ceead939e9c"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FadRii%2FDesktop%2Fml-agents-master%2Funity-environment%2FTemp%2Fbin%2FDebug%2FAssembly-CSharp.dll Type%3D(Name%3DUniforms ParentType%3DExampleWheelController) Member%3D_MotionAmount"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7652c651-51db-4346-9601-c699d2805f51"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="593015e4-22a0-441f-8983-8ad39f702633">
+                    <propertyInstance
+                      Id="440de135-dc8d-40e1-b5cf-fd29a5f77860"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a8da504e-cb08-4697-ac14-a9d0c5443cef">
+                    <propertyInstance
+                      Id="f348ad70-6c29-4021-a3de-30f0cb8d791a"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="89d6df3b-bf01-4de4-b156-fde57d5d3b21">
+                    <propertyInstance
+                      Id="8ee04d91-88ad-48fc-8a7b-c8cefc4efabf"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="04f5388a-1752-4e8e-afe6-24d19f7c1736">
+                    <propertyInstance
+                      Id="a8cca5c0-29f4-49b8-b34e-d83bab1b9541"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ac06ae9-9770-468a-8354-9c805a5a1890">
+                    <propertyInstance
+                      Id="504beda5-ad11-4955-b0b5-d82e96441250"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

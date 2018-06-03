@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="80c9de01-f35e-411a-bb7c-74445f4ca35e"
+  name="BaseExposedPropertyDrawer‎"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="ec171028-738b-40ac-9852-b07e5dde7855"
+      handle="viewcode://./CodeSchema_Namespace?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FadRii%2FDesktop%2Fml-agents-master%2Funity-environment%2FTemp%2Fbin%2FDebug%2FAssembly-CSharp-Editor.dll Namespace%3DBaseExposedPropertyDrawer Type%3DBaseExposedPropertyDrawer.OverrideState"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="9bad4c02-b52d-4c5b-a19c-85391865f911"
+        name="BaseExposedPropertyDrawer.ExposedPropertyMode"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="bc0f8ea1-6330-4c97-b3b8-0600682f3072"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FadRii%2FDesktop%2Fml-agents-master%2Funity-environment%2FTemp%2Fbin%2FDebug%2FAssembly-CSharp-Editor.dll Type%3DBaseExposedPropertyDrawer.ExposedPropertyMode"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3bd76afe-b39c-4091-8812-b6c35b3cd93d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="482ba27b-c7b5-4b37-8420-13ec871e0a52">
+                <propertyInstance
+                  Id="9e13bab5-cde6-41c5-96da-5a8b60d24810"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="13b2a47d-4e98-4541-a47a-1be176694e7f">
+                <propertyInstance
+                  Id="151d7004-7b3a-4d5f-9321-2e30f674cd14"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="63c6f1e9-41b4-48c1-9fa3-5b6c3a0c6b10">
+                <propertyInstance
+                  Id="2d0e1c30-1a4b-4141-bfff-0541c96d9ddc"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cde6f901-406f-455b-9b50-e424c2cc42bd">
+                <propertyInstance
+                  Id="201a637e-6467-498d-af0f-1cb435dfb128"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3487cd89-bb87-487b-9260-034cdf994131">
+                <propertyInstance
+                  Id="963a08df-1daf-4022-8a9f-46d056f6c4db"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="523cc62e-0ae5-4459-87bd-319968ef7834"
+        name="BaseExposedPropertyDrawer.OverrideState"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5c874d03-f6be-41d5-b13a-29798c77b5ec"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FadRii%2FDesktop%2Fml-agents-master%2Funity-environment%2FTemp%2Fbin%2FDebug%2FAssembly-CSharp-Editor.dll Type%3DBaseExposedPropertyDrawer.OverrideState"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="79d977f7-992d-4804-be6e-94a53aa00cd0"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e78e3c9c-ddcc-42e0-bcea-1e098bb1f33c">
+                <propertyInstance
+                  Id="3105f58a-02b2-4e38-86fe-97b9a049e2d6"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2ef66871-712f-4dae-b0ea-5f10cdf4a854">
+                <propertyInstance
+                  Id="4a671309-56b0-4c57-aedc-758419e80872"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="00321e29-1c30-45bb-83c0-d7495a8c2bce">
+                <propertyInstance
+                  Id="eecb288b-da9f-4fb1-8d26-b1e6fb5b7df8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="98b0e1ee-d975-4cd0-a335-87d608474b4b">
+                <propertyInstance
+                  Id="c311a2f3-aa90-40b0-8083-2a77a4198e10"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="014858e1-d8ab-4b7b-af98-ebdb9111847b">
+                <propertyInstance
+                  Id="f1a1a837-81b9-4181-9130-d14f2b044df4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

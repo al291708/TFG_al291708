@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="1b8d90ea-5272-411c-bf74-2ba6fe93123f"
+  name="AI"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="ba213f28-2b8a-4a4b-9d4f-8dfe5552eaed"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DUnityEngine.AI"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="2f069625-209b-43c8-a2cd-dfbd711a4b80"
+        name="NavMeshAgent"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="60f8d8e3-6997-442c-a56a-8db289b2cee3"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FUnity2017.3.1f1%2FEditor%2FData%2FManaged%2FUnityEngine.dll&quot; Namespace%3DUnityEngine.AI Type%3DNavMeshAgent"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ba31867a-ed49-4ee7-9518-7c70adc76fba"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="96f23f52-2362-4cd0-b4f2-746bff05f27c">
+                <propertyInstance
+                  Id="6a0db3d2-64c7-494c-825c-10ba13bd4a1a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="053d7eb7-d6e3-4b00-a8c8-d97282118bfc">
+                <propertyInstance
+                  Id="818d4895-41ed-4af6-8116-d88766fc4eab"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="024ae5ef-0597-4185-84d1-014bbb870577">
+                <propertyInstance
+                  Id="3547cce6-cee7-4906-918d-41dd7a58d1fe"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aa7006fc-8214-44d7-b2f0-865231016580">
+                <propertyInstance
+                  Id="5fc3ea20-1371-4e9d-9a19-dc48aec588ab"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="47fec1f7-29f4-4f7b-afcb-e1663d7127ec">
+                <propertyInstance
+                  Id="aea6f888-f97c-43af-91a4-e047ef5ef982"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

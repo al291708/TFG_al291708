@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="80b3a748-3591-4708-937a-d3eb8fbc7b9c"
+  name="Modules‎"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="bce9cd5c-3ecf-4cfe-b6a6-d16255b2f433"
+      handle="viewcode://./CodeSchema_Namespace?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FadRii%2FDesktop%2Fml-agents-master%2Funity-environment%2FTemp%2Fbin%2FDebug%2FAssembly-CSharp-Editor.dll Namespace%3DUnityEditor.Modules Type%3DUnityEditor.Modules.DefaultBuildPostprocessor"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="20a587ab-eaa9-4f4a-801f-5f01b14fd87d"
+        name="UnityEditor.Modules.DefaultBuildWindowExtension"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e6300fbf-57dc-4530-9f25-03a20246c379"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FadRii%2FDesktop%2Fml-agents-master%2Funity-environment%2FTemp%2Fbin%2FDebug%2FAssembly-CSharp-Editor.dll Type%3DUnityEditor.Modules.DefaultBuildWindowExtension"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="8b8c3dc6-f11d-41ec-ab3b-be0f9c0194a3"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="949a1676-3304-422b-9e1f-6407079b3b0c">
+                <propertyInstance
+                  Id="428fe614-55c8-4f50-9d68-8155e8d531de"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3cb3974e-7b90-4972-b8fe-cc0a5c8a2158">
+                <propertyInstance
+                  Id="6d9d8ab6-1c7c-47dd-857c-0996e2b40afa"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cf570aa5-667f-428b-b795-80c6cda9fda8">
+                <propertyInstance
+                  Id="1ff8b5d6-87c4-44bb-a7e4-8776758e2bff"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="401c2714-c7a2-42a1-ab50-9f8bf1dfcd50">
+                <propertyInstance
+                  Id="3d606fbc-baa1-49fa-9992-783dfe69d2ea"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d282618c-a330-48d0-8658-b9d28a49f651">
+                <propertyInstance
+                  Id="c69c9dee-b203-4cd9-ba41-6fb10908d030"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0edbba61-c46b-4314-b72f-bd4d4c75a53a"
+        name="UnityEditor.Modules.BuildPostProcessArgs"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="b3af0844-9b5d-414a-97e9-a76a0fe0047f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FadRii%2FDesktop%2Fml-agents-master%2Funity-environment%2FTemp%2Fbin%2FDebug%2FAssembly-CSharp-Editor.dll Type%3DUnityEditor.Modules.BuildPostProcessArgs"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="16952069-8abe-4264-9282-18732a68a8b4"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9b11d047-1c2d-40e1-ab39-4ddf366ae5c8">
+                <propertyInstance
+                  Id="5ce6ff60-ddfd-4a2d-b7c7-7fe17f780064"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="31bdf3f4-a467-459d-a15b-63843edd7cb1">
+                <propertyInstance
+                  Id="7bb6904b-9eaa-4912-b08a-768cc50024ae"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f959bb82-2853-45b2-bf04-9c2cd5a32345">
+                <propertyInstance
+                  Id="a9736ff6-b411-4ec0-a625-b078c691da1a"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="14121a45-f774-48b1-88b7-cb48d43668b4">
+                <propertyInstance
+                  Id="a4d8326a-a622-4fdb-9562-9d5874951943"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ab40d22c-f691-41c3-9562-f3336982712a">
+                <propertyInstance
+                  Id="7507754b-80f6-43ee-856a-436c9a681a63"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="320180d7-c753-431b-9154-68d37d61374b"
+        name="UnityEditor.Modules.DefaultBuildPostprocessor"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="18d137f5-87a7-4320-b89a-38b4fe44ab0f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FadRii%2FDesktop%2Fml-agents-master%2Funity-environment%2FTemp%2Fbin%2FDebug%2FAssembly-CSharp-Editor.dll Type%3DUnityEditor.Modules.DefaultBuildPostprocessor"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="e69a1171-c153-4a9f-896f-7997190b863f"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="242185fe-87a1-448c-a4c7-3a27daea7db0">
+                <propertyInstance
+                  Id="0b376362-bbfa-4cb7-bc37-e0bf08154a0a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5eb0c9bb-f1a8-4e24-9030-6303be0f0d6c">
+                <propertyInstance
+                  Id="1aa9344d-6a12-451c-9907-03b3aa93875e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="99c1c08c-881b-4ece-a814-cdf79f4c1823">
+                <propertyInstance
+                  Id="60d3745a-26cd-4fb1-b1b2-4835ad5fd177"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6a576d63-bca0-4154-89e5-f43e468bcab7">
+                <propertyInstance
+                  Id="942047fc-04e9-44f9-b657-cddb77d8d8b9"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c8f4c50d-043c-4aa4-a5a6-6736fc0657ac">
+                <propertyInstance
+                  Id="ca804a19-9923-4ad3-a7e6-b44aa4c3b0a3"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

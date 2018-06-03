@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="8bf96a75-c046-4893-ae91-50867849b8ed"
+  name="TensorFlow"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="f6580453-4c3d-4086-9a6d-2c045b747265"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DTensorFlow"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="88240288-9621-4c2a-aa9e-780663d0b3b3"
+        name="TFGraph"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="ee7dab4d-b9fd-4e0b-ae3a-853728b074c9"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FadRii%2FDesktop%2Fml-agents-master%2Funity-environment%2FAssets%2FML-Agents%2FPlugins%2FComputer%2FTensorFlowSharp.dll Namespace%3DTensorFlow Type%3DTFGraph"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9fc872c3-88d6-4d2c-a2ca-a481086cefa2"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="04fbcfd9-49b8-4942-9512-74c75eee9e2a">
+                <propertyInstance
+                  Id="f64f6040-daf6-4b7a-bce3-3a0984c5038c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ffbcc27f-6c6e-43c3-ae59-5dcbe13adda5">
+                <propertyInstance
+                  Id="8730bad9-523c-4d17-ad6d-442f8e26c797"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4f0d5513-cfb0-4f63-ad88-1894945f19b0">
+                <propertyInstance
+                  Id="f044e8b3-0aee-4af8-8d06-ac21e851e830"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3bde7cc9-70ee-4625-a7e4-068dbd6ce141">
+                <propertyInstance
+                  Id="0b9733ff-69da-4c0f-90db-533f0abbe969"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fbbe5f62-d595-44bc-ba9c-fca6dbd934ca">
+                <propertyInstance
+                  Id="2ee7e399-62ee-4aa8-86c9-22ad1dcaa4cf"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ce963d4b-e19e-4e16-a8b4-b98ea2caa81d"
+        name="TFSession"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="868f78b5-0dd4-447f-aea7-7a2c477da2af"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FadRii%2FDesktop%2Fml-agents-master%2Funity-environment%2FAssets%2FML-Agents%2FPlugins%2FComputer%2FTensorFlowSharp.dll Namespace%3DTensorFlow Type%3DTFSession"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ad178a78-9268-459e-8b02-8e1c9a0e883b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="435a32c7-8e74-4bd0-b939-620877042125">
+                <propertyInstance
+                  Id="3fa1e151-b83b-43e2-8a9c-d68c91bd5146"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="62577bc3-f405-4cec-9703-aa48f8dd6e5d">
+                <propertyInstance
+                  Id="9790d232-ccd3-49fa-9049-9ae1a001672c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c4ac59ed-5dcc-4d38-860f-8ec18c5ffb94">
+                <propertyInstance
+                  Id="f8a2fafd-458e-46c4-9dbd-7f56b94ae9ad"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f22e9e99-1f06-45bd-a362-d5ade9008a53">
+                <propertyInstance
+                  Id="82395a88-f84d-47a0-8edd-b4d30ecb361c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cb5b44ee-b1ce-42c7-acd6-367f2f182def">
+                <propertyInstance
+                  Id="c4af8643-03e0-42b1-8292-f254f0bf5c26"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
